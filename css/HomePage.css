@@ -252,7 +252,7 @@ button {
 
 #expolreworlds{
     width : 100vw;
-    height : 6  0vh;
+    height : 60vh;
     background-color: #fff;
     display: flex;
     flex-direction: row;
@@ -306,8 +306,8 @@ button {
     display: inline;
     z-index: 1;
     position: relative;
-    bottom : -39px;
     right : 50px;
+    top : -10px;
 }
 
 #carouselandglobe {
@@ -350,10 +350,11 @@ button {
     height: 30px;
     position: relative;
     top :10px;
-    color: aqua;
+
 }
 
 #rightarrow {
+    
     transform: rotateZ(180deg);
 }
 
@@ -406,7 +407,7 @@ button {
 
 #lands {
     width : 100vw;
-    height: 100vh;
+    height: 180vh;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -457,19 +458,178 @@ button {
     flex-direction: row;
 }
 
-#northamerica {
+.panel {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width : 790px;
+    height: 700px;
+    position: relative;
+    top : 80px;
+}
+
+#locationdesc {
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#locationslider {
+    width: 50%;
+    height: 100%;
+}
+
+#locationbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top : 40px;
+}
+
+.leftarrow1, .rightarrow1 {
+    fill  : white;
+}
+
+
+#imageshow {
+    
+    width : 70%;
+    height: 90%;
+    position: relative;
+    left : 55px;
+    bottom : 55px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#iamgescontainerland {
+    transition: 2000ms linear;
+}
+
+.landimg {
+    width : 100%;
+    height: 100%;
+}
+
+#smalllocation {
+    position: relative;
+    top : 240px;
+}
+
+
+#area {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 2;
+    font-size: .9rem;
+    color: white;
+}
+
+#sun {
+    font-size: x-small;
+    color: white;
+}
+
+#icon-sun {
+
+    width : 30px;
+    fill : #fff;
     
 }
+#locationattri  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top : 200px;
+}
+#suntext {
+    position: relative;
+    left: 5px;
+}
 
-#hawiiconti {
+#largelocation {
+    position: relative;
+    top : 270px;
+    height: 15%;
+}
+
+#mainlocation {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+#icon-pip {
+    fill : #fff;
+    width: 25px;
+    position: relative;
+    top : 300px;
+    left: 50px;
+}
+
+#latlongtext {
+    color: white;
+    font-size: x-small;
+    position: relative;
+    left : 99px;
+    top :  260px;
+}
+
+
+#lifewellexpcards {
+    background-color: white;
+    height: 100vh;
+    width : 100vw;
+    display : flex;
+    flex-direction: row;
+}
+
+#experience,#wellness,#lifestyle {
+    width : 33.3%;
+    height : 100%
+}
+
+.expimg {
+    width : 100%;
+    height : 100%;
+}
+
+.arrowoncard {
+    width : 37px;
+    fill : #fff;
+    position : relative;
+    top :30px;
+    left : 20px;
 
 }
 
-#europeconti {
-
+.buttoncircle {
+    border : 2px solid white;
+    height: 90px;
+    position : relative;
+    width : 90px;
+    border-radius: 120px;
 }
 
+.buttonandtitle {
+    height : 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 450px;
+}
 
+.title {
+    font-size: xx-large;
+    color : #fff;
+}
 
 
 
