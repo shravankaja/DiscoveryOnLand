@@ -10,13 +10,21 @@ body {
         
 }
 
+#logoheader {
+    display: inline;
+    margin-left: 150px;
+    position: relative;
+    width: 50px;
+}
+
 .c-site-head__logo {
-    bottom: 696px;
+    bottom: 700px;
     display: block;
     pointer-events: all;
     cursor: pointer;
     z-index: 2;
-    width: 100%;
+    width : 100%;
+    height : 10%;
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -24,16 +32,23 @@ body {
 }
 
 #Layer_1 {
+    right:40px;
     position: relative;
-    width : 10%;
+    width: 47%;
+    bottom: -10px;
 }
-
 .list-items {
     float: left;
     list-style: none;
     margin-right:  86px;
     font-family: 'Roboto', sans-serif;
     color : #fff;
+}
+
+#logofooter {
+    position: relative;
+    width: 32%;
+    top: 22px;
 }
 
 #press {
@@ -115,7 +130,7 @@ button {
     position: relative;
     bottom : -183px;
 }
-.logoactual {
+#logoactual {
     position: relative;
     width: 50%;
     left: 310px;
@@ -156,4 +171,308 @@ button {
     color : #fff;
     margin-bottom: 20px;
 }
+
+#ourworld {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width : 100vw;
+    height : 150vh;
+    background-image: url('http://staging.discoverylandco.com/imager/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#text-image-ourworld {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#onlyimage-ourworld {
+    width : 50%;
+    height: 100%;
+}
+
+#ourworld-heading {
+    position: relative;
+    top : 150px;
+    width : 500px;
+    height: 120px;
+}
+
+
+#headingone {
+    position: relative;
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size:xx-large;
+    height: 120px;
+}
+
+#headingtwo {
+    position: relative;
+    bottom:40px;
+    left : 5px;
+    font-family: 'Antic Slab', serif;
+    font-size: x-large ;
+}
+
+#ourworlds-desc {
+    width : 500px;
+    height: 150px;
+    position: relative;
+    top : 150px;
+    line-height: 2;
+    font-size: 1.3rem;
+    color: #777;
+}
+
+#imageourworld {
+    position: relative;
+    top : 580px;
+    width : 500px;
+    height: 350px;
+}
+
+#onlyimage-ourworld {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#onlyimgcontainerimg {
+    width : 550px;
+    height : 800px;
+    position: relative;
+    top : 200px;
+}
+
+#expolreworlds{
+    width : 100vw;
+    height : 6  0vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+#explorecontainerone {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headingoneexplore {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    position: relative;
+}
+
+#exploreheadingone {
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+#headingtwoexplore {
+    position: relative;
+    bottom : 107px;
+    display: flex;
+}
+
+#exploreheadingtwo {
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#descexplore {
+    position: relative;
+    line-height: 2;
+    font-size: 1.3rem;
+    color: #777;
+    left: 145px;
+    width: 50%;
+    bottom: 124px;
+}
+
+#carouselbuttonsexplore {
+    width :40%;
+    height: 100px;
+    display: inline;
+    z-index: 1;
+    position: relative;
+    bottom : -39px;
+    right : 50px;
+}
+
+#carouselandglobe {
+    background-color: lightgray;
+    height : 110vh;
+    width : 100vw;
+}
+
+
+#leftbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    top : 30px;
+    background-color: #fff;
+    border-radius: 90px;
+    margin-left: 40px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#rightbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 130px;
+    top : 30px;
+    background-color: #fff;
+    border-radius: 90px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#leftbutton:hover,#rightbutton:hover,#left:hover {
+    background-color: gray;
+
+}
+
+#leftarrow,#rightarrow {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top :10px;
+    color: aqua;
+}
+
+#rightarrow {
+    transform: rotateZ(180deg);
+}
+
+#carousel-items {
+    position: relative;
+    top : 119px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    transition: 2000ms linear;
+
+}
+
+
+
+#carouselandglobe {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.empty-space {
+    width : 16.6%;
+    border : 2px solid violet;
+}
+
+
+.carousel-item {
+   
+    width : 470px;
+    height : 700px;
+    margin : 10px;
+
+}
+
+.img-1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.c-slide__content {
+    position: relative;
+    bottom: 236px;
+    color: white;
+    left: 122px;
+}
+
+
+#lands {
+    width : 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landstext {
+    position: relative;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+#headingtwo {
+    position: relative;
+}
+
+#landsdesc {
+   line-height: 2; 
+    font-size: 1.3rem;
+    color: #777;
+}
+
+#continentsbuttons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 230px;
+}
+
+.buttoncontainer {
+    margin: 40px;
+}
+
+#north,#hawii,#europe {
+    font-size: x-large;
+    transition: 2s linear;
+    transition: 300ms  linear;
+    border-bottom: 1px solid transparent;
+}
+
+#north:hover,#hawii:hover,#europe:hover {
+    border-color: black;
+}
+
+#continentcontent {
+    display: flex;
+    flex-direction: row;
+}
+
+#northamerica {
+    
+}
+
+#hawiiconti {
+
+}
+
+#europeconti {
+
+}
+
+
+
+
+
+
+
 
