@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', event => {
 
 
-let log = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+    let log = `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 433.6 97.1"
 style="enable-background:new 0 0 433.6 97.1;" xml:space="preserve">
 <style type="text/css">
@@ -283,7 +283,7 @@ style="enable-background:new 0 0 433.6 97.1;" xml:space="preserve">
 </g>
 </svg>`
 
-let log2 = `<svg version="1.1" id="Layer_1" class="pl" xmlns="http://www.w3.org/2000/svg"
+    let log2 = `<svg version="1.1" id="Layer_1" class="pl" xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 359 360"
 style="enable-background:new 0 0 359 360;" xml:space="preserve">
 <style type="text/css">
@@ -487,48 +487,141 @@ style="enable-background:new 0 0 359 360;" xml:space="preserve">
         c0-8-1-9.2-6.3-9.2v-1.6h16.9c13.5,0,19.4,7.8,19.4,17.2C197.7,189.4,191.8,197.3,178.3,197.3z"></path>
 </g>
 </svg>`
- document.getElementById("logoheader").innerHTML = log;
- document.getElementById("logofooter").innerHTML = log2;
+    document.getElementById("logoheader").innerHTML = log;
+    document.getElementById("logofooter").innerHTML = log2;
 
 
 
- const carouselitems = document.getElementById("carousel-items")
- const carouselitem =  document.querySelectorAll('.carousel-item')
- const right = document.getElementById('leftbutton');
- const left = document.getElementById('rightbutton');
- let size = carouselitem[1].clientWidth;
- let counter =0;
- 
- right.addEventListener("click", function () {
-     counter++;
-     console.log(carouselitem[counter+1].id)
- 
-     if(carouselitem[counter].id == "5")
-     {
-         
-        carouselitems.style.transform = 'translateX('+(-size*5)+'px)';
-     }
-     else {
-     carouselitems.style.transform = 'translateX('+(-size*counter)+'px)';
-     }
-     })
- 
- 
- left.addEventListener("click",function () {
-     if(counter > 4) {
-         counter=3   ;
-     }
-     console.log(carouselitem[counter].id)
- 
-     counter--;
-      carouselitems.style.transform = 'translateX('+(-size*counter)+'px)';
- 
-     })
- 
-     const hawii = document.getElementById('hawiiconti');
-     hawii.style.display="none";
-     const europe = document.getElementById('europeconti')
-     europe.style.display = "none";
+    const carouselitems = document.getElementById("carousel-items")
+    const carouselitem = document.querySelectorAll('.carousel-item')
+    const right = document.getElementById('leftbutton');
+    const left = document.getElementById('rightbutton');
+    let size = carouselitem[1].clientWidth;
+    let counter = 0;
+
+    right.addEventListener("click", function () {
+        counter++;
+        console.log(carouselitem[counter + 1].id)
+
+        if (carouselitem[counter].id == "5") {
+
+            carouselitems.style.transform = 'translateX(' + (-size * 5) + 'px)';
+        }
+        else {
+            carouselitems.style.transform = 'translateX(' + (-size * counter) + 'px)';
+        }
+    })
+
+
+    left.addEventListener("click", function () {
+        if (counter > 4) {
+            counter = 3;
+        }
+        console.log(carouselitem[counter].id)
+
+        counter--;
+        carouselitems.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+    })
+
+    const hawii = document.getElementById('hawiiconti');
+    hawii.style.display = "none";
+    const europe = document.getElementById('europeconti')
+    europe.style.display = "none";
+    const northamerica = document.getElementById('northamerica')
+    const north = document.getElementById('north')
+
+    const europebutton = document.getElementById('europe');
+    const hawiibutton = document.getElementById('hawii')
+
+    hawiibutton.addEventListener("click", function () {
+        hawii.style.display = "inline"
+        northamerica.style.display = "none"
+    })
+
+    europebutton.addEventListener("click", function () {
+        europe.style.display = "inline"
+        northamerica.style.display = "none"
+    })
+
+    north.addEventListener('click', function () {
+        northamerica.style.display = "block"
+        hawii.style.display ="none"
+        europe.style.display = "none"
+
+
+    })
+
+    const locrightbutton = document.getElementById('locationrightbutton');
+    const imgcontainerloc = document.getElementById('iamgescontainerland');
+    let heightloc = imgcontainerloc.clientHeight;
+    let coutnerloc = 0;
+    const allimagesloc = document.querySelectorAll('.landimg')
+    const locleftbutton = document.getElementById('locationleftbutton')
+
+    locrightbutton.addEventListener("click", function () {
+        coutnerloc++;
+        console.log(allimagesloc[coutnerloc].id)
+        findAndUpdate(coutnerloc,"right")
+        imgcontainerloc.style.transform = "translateY(" + (-heightloc * coutnerloc) + "px)"
+    })
+
+
+    const findAndUpdate = function(count,type) {
+        let countTest =0;
+        if(type == "left") {
+            countTest = count -1;
+        }
+        else if(type == "right") {
+            countTest = count;
+        }
+        if(allimagesloc[countTest].id == "landthree") {
+            updateById("area","Westlake, Texas")
+            updateById("mainlocation","Vaquero")
+            updateById("suntext","52F")
+            updateById("latlongtext","32.2255881/-28.5558574W")
+            
+        }
+        else if(allimagesloc[countTest].id == "landfour") {
+            updateById("area","Whitefish, Montana")
+            updateById("mainlocation","Iron House")
+            updateById("suntext","33F")
+            updateById("latlongtext","48.2255881/-114.5558574W")
+            
+        }
+        else if(allimagesloc[countTest].id == "landtwo") {
+            updateById("area","Scottsdale,Arizona")
+            updateById("mainlocation","Estancia")
+            updateById("suntext","30.3F")
+            updateById("latlongtext","0.2255881/-2.5558574")
+        }
+        else if(allimagesloc[countTest].id == "landone") {
+            updateById("area","Scillicon Valley, California")
+            updateById("mainlocation","Corde Valle")
+            updateById("suntext","49F")
+            updateById("latlongtext","37.2255881/-121.5558574N")      
+           
+        }
+
+    }
+
+    locleftbutton.addEventListener("click", function () {
+        console.log(coutnerloc)
+        if (coutnerloc > 4) {
+            coutnerloc = 3;
+        }
+        findAndUpdate(coutnerloc,"left")
+        if (coutnerloc == 0) {
+            console.log(allimagesloc[coutnerloc + 10].id)
+        }
+        console.log(allimagesloc[coutnerloc - 1].id)
+        coutnerloc--;
+        imgcontainerloc.style.transform = "translateY(" + (-heightloc * coutnerloc) + "px)"
+    })
+
+    const updateById = function(id,text) {
+        document.getElementById(id).innerHTML = text; 
+    }
 
 
 })
