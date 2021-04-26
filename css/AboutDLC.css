@@ -1,0 +1,554 @@
+body {
+    margin: auto;
+    
+}
+
+#header-background-video {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+        
+}
+
+#logoheader {
+    display: inline;
+    margin-left: 150px;
+    position: relative;
+    width: 50px;
+}
+
+.c-site-head__logo {
+    bottom: 680px;
+    display: block;
+    pointer-events: all;
+    cursor: pointer;
+    z-index: 2;
+    width : 100%;
+    height : 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Layer_1 {
+    right:40px;
+    position: relative;
+    width: 47%;
+    bottom: -10px;
+}
+.list-items {
+    float: left;
+    list-style: none;
+    margin-right:  86px;
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+}
+
+#logofooter {
+    position: relative;
+    width: 32%;
+    top: 22px;
+}
+
+#press {
+    margin-right: 0px;
+}
+#togglebutton{
+   z-index : 10;
+}
+
+.c-burger {
+    --size: 1.25rem;
+    --height: 14px;
+    position: relative;
+    width: var(--size);
+    height: var(--height);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 2;
+}
+
+.c-burger__line {
+    height: 2px;
+    background-color: #fff;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+}
+
+.c-burger__line:nth-child(2) {
+    margin: 4px 0;
+}
+
+.c-burger__line:nth-child(3) {
+    width: 60%;
+    margin-left: auto;
+}
+
+.c-burger-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 2px;
+    width: 100%;
+}
+
+button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+button {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #161f1e;
+    width: 100vw;
+    height: 600px;
+    z-index: 2;
+}
+
+#footerlogo {
+    display: flex;
+   
+}
+
+#footercontainer  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom : -183px;
+}
+#logoactual {
+    position: relative;
+    width: 50%;
+    left: 310px;
+}
+
+#item2 {
+    width : 16.6%;
+    
+}
+
+.pl {
+    align-self: center;
+}
+
+#item3 {
+
+    width : 16.6%;
+    
+}
+
+#item4 {
+    width : 16.6%;
+   
+}
+
+
+
+.lo {
+    position: relative;
+    left: 100px;
+    
+}
+
+.secondfooteritems, .thirdfooteritems, .fourthfooteritems {
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+    margin-bottom: 20px;
+
+}
+
+#headerimgcontainer {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#headerimg {
+    position : absolute;
+    left: 0;
+    top : 0;
+}
+
+#story {
+    background-color: #fff;
+    height : 390vh;
+    width : 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#storydesc {
+    width : 100%;
+    height : 20%;
+    
+    font-weight: 200;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#mission {
+    width : 100%;
+    height : 40%;
+    
+    display: flex;
+    flex-direction: row;
+}
+#missionheadinganddesc{
+    width: 50%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 130px;
+}
+
+#head {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: 200;
+}
+
+#descmission {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: gray;
+    line-height: 2;
+
+}
+
+#onlyimgmission{
+    width : 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 130px;
+}  
+
+#missionimg {
+    width : 700px;
+    height : 900px;
+    position: relative;
+    right: 90px;
+}
+
+#bayimg {
+    width : 100%;
+    height : 47%;
+   
+    position: relative;
+    top : -300px;
+}
+
+#imgbay {
+    
+    height: 54%;
+    width : 69%;
+    position: relative;
+    top : 420px;
+    left: 250px;
+}
+
+#differencecarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+    
+}
+
+#differencecarousel{
+    width: 100%;
+    height: 36%;
+    
+    overflow: hidden;
+}
+
+#diffheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    position: relative;
+    right  : 350px;
+}
+
+#carousel-items {
+    position: relative;
+    top : 90px;    
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    transition: 2000ms linear;
+
+}
+
+#diffcarousel {
+    position: relative;
+    bottom : 70px;
+    left : 2550px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.empty-space {
+    width : 16.6%;
+    
+}
+
+
+.carousel-item {
+    width : 470px;
+    height : 700px;
+    margin : 30px;
+}
+
+
+#leftbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 100px;
+    top : 60px;
+    background-color: #fff;
+    border-radius: 90px;
+    margin-left: 40px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#rightbutton {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    left: 130px;
+    top : 60px;
+    background-color: #fff;
+    border-radius: 90px;
+    box-shadow: 0 8px 14px 0 rgb(0 0 0 / 15%);
+}
+
+#leftbutton:hover,#rightbutton:hover,#left:hover {
+    background-color: gray;
+
+}
+
+#leftarrow,#rightarrow {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top :10px;
+
+}
+
+#rightarrow {
+    
+    transform: rotateZ(180deg);
+}
+
+#carouselbuttonsexplore{
+    position: relative;
+    right: 490px;
+    bottom: 90px;
+}
+
+#design {
+    height : 200vh;
+    width : 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#designimg { 
+     width : 100vw;
+    height : 46%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#imgd {
+    width : 70%;
+    height: 95%;
+}
+
+#discoverydesign  {
+    
+    width : 100%;
+    height : 40%;
+    position: relative;
+    bottom : 190px;
+    display: flex;
+    flex-direction: row;
+}
+
+#imgd1 {
+    width : 350px;
+}
+
+#onlyimgdesign {
+    
+    width : 50%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgandescdesign  {
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    width : 50%;
+    height : 100%;
+}
+
+#dcon {
+    position: relative;
+    top : 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#designheading {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#designdesc {
+    position: relative;
+    bottom : 30px;
+    width : 50%;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    line-height: 1.3;
+}
+
+#imgd2 {
+    width : 400px;
+}
+
+#imgd3 {
+    position: relative;
+    left : 40px;
+}
+
+#discoverybuilders {
+    height : 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top : 100px;
+}
+
+#buildersdescandimg {
+    width : 50%;
+    height : 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#buildercon {
+    width : 80%;
+    height : 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top : 130px;
+}
+
+#buildersimg  {
+    width : 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buildheading  {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#builderdesc {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: grey;
+    width : 60%;
+    position: relative;
+    left : 80px;
+}
+
+#imgd4 {
+    position: relative;
+    top : 40px;
+    width : 400px;
+    left : 70px;
+}
+
+#imgd5 {
+    width : 400px;
+}
+
+#ourworldscard {
+    height: 60vh;
+    width : 100vw;
+    background-color: #fff;
+}
+
+#imgourworld {
+    width : 100%;
+    height : 100%;
+}
+
+#ourworldsimghead {
+
+    position: relative;
+    bottom : 350px;
+    left: 800px;
+    color: #fff;
+    font-size: xxx-large;
+}
+
+#exploreourworld {
+    position: relative;
+    bottom : 300px;
+    left : 865px;
+    font-size: x-large;
+    color : white;
+    border: 2px solid white;
+    padding : 20px;
+}
+   
