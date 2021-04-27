@@ -1,0 +1,437 @@
+body {
+    margin: auto;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-background-video {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+        
+}
+
+a{
+    text-decoration: none;
+    color : white;
+}
+
+#logoheader {
+    display: inline;
+    margin-left: 150px;
+    position: relative;
+    width: 50px;
+}
+
+.c-site-head__logo {
+    bottom: 680px;
+    display: block;
+    pointer-events: all;
+    cursor: pointer;
+    z-index: 2;
+    width : 100%;
+    height : 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Layer_1 {
+    right:40px;
+    position: relative;
+    width: 47%;
+    bottom: -10px;
+}
+.list-items {
+    float: left;
+    list-style: none;
+    margin-right:  86px;
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+}
+
+#logofooter {
+    position: relative;
+    width: 32%;
+    top: 22px;
+}
+
+#press {
+    margin-right: 0px;
+}
+#togglebutton{
+   z-index : 10;
+}
+
+.c-burger {
+    --size: 1.25rem;
+    --height: 14px;
+    position: relative;
+    width: var(--size);
+    height: var(--height);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 2;
+}
+
+.c-burger__line {
+    height: 2px;
+    background-color: #fff;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+}
+
+.c-burger__line:nth-child(2) {
+    margin: 4px 0;
+}
+
+.c-burger__line:nth-child(3) {
+    width: 60%;
+    margin-left: auto;
+}
+
+.c-burger-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 2px;
+    width: 100%;
+}
+
+button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+button {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #161f1e;
+    width: 100vw;
+    height: 600px;
+    z-index: 2;
+}
+
+#footerlogo {
+    display: flex;
+    
+}
+
+#footercontainer  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom : -183px;
+}
+#logoactual {
+    position: relative;
+    width: 50%;
+    left: 310px;
+}
+
+#item2 {
+    width : 16.6%;
+    
+}
+
+.pl {
+    align-self: center;
+}
+
+#item3 {
+
+    width : 16.6%;
+    
+}
+
+#item4 {
+    width : 16.6%;
+   
+}
+
+
+
+.lo {
+    position: relative;
+    left: 100px;
+    
+}
+
+.secondfooteritems, .thirdfooteritems, .fourthfooteritems {
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+    margin-bottom: 20px;
+}
+
+
+#expdescandexculsiveworld {
+    background-color: #fff;
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#expintro {
+    
+    width : 100%;
+    height : 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expstory {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    font-size: xx-large;
+    width : 50%;
+    line-height: 2;
+}
+
+#yourworlddesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#yourworld {
+    height: 50%;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 0;
+}
+
+#headingoneyworld, #headingtwoworld {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+
+#headingoneyworld {
+    position: relative;
+    top :240px;
+}
+
+#yourworldpara {
+    color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+    line-height: 2;
+    width: 50%;
+    position: relative;
+    left: 140px;
+    bottom : 180px
+}
+
+#yourworldimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yimg {
+    width : 500px;
+}
+
+#yourworlddesc {
+    width : 50%;
+    height : 100%;
+}
+
+#experienceall  {
+    height: 500vh;
+    width : 100vw;
+    background-color: rgb(241, 234, 234);
+    display: flex;
+    flex-direction: column;
+}
+
+#yourworldimg {
+    width : 50%;
+    height : 100%;
+}
+
+#golf {
+    width : 100%;
+    height : 120vh;
+}   
+
+.imgexp {
+    height: 90%;
+    z-index: 4;
+}
+
+.aboutexp {
+    background-color: white;
+    width : 500px;
+    height: 500px;
+    position: relative;
+    left: 1100px;
+    bottom : 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headingexp {
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: xx-large;
+    position: relative;
+    top : 80px;
+    right: 149px;
+}
+
+.expdescfull {
+    color: gray;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+    line-height: 1.4;
+    width: 70%;
+    position: relative;
+    top : 100px;
+}
+
+.greybox {
+    background-color: lightgray;
+    height : 5%;
+    width : 50%;
+    position: relative;
+    bottom: 504px;
+    z-index: 0;
+    left: 490px;    
+}
+
+.greyboxlinear {
+    background-color: lightgray;
+    height :23%;
+    width : 4.5%;
+    position: relative;
+    bottom : 790px;
+    left : 1300px;
+}
+
+#pimg {
+    position: relative;
+    left : 500px;
+    width : 75%;
+    height: 80%;    
+}
+
+#pexp {
+    z-index: 1000;
+    left: 134px;
+    position: relative;
+    top : -700px;
+}
+
+
+#pg {
+    position: relative;
+    left: 432px;
+
+}
+
+#pl {
+        background-color: lightgray;
+        height: 20%;
+        width: 4.5%;
+        position: relative;
+        bottom: 804px;
+        left: 433px;
+    
+}
+
+#wexp {
+    position: relative;
+    left : 990px;
+    top : -720px;
+}
+
+#wimg {
+    width :70%;
+}
+
+#wl {
+    position: relative;
+    left : 1245px;
+    height : 20.5%;
+}
+
+#wg {
+    width : 45%;
+}
+
+#phead {
+    position: relative;
+    left : -45px;
+}
+
+#ourworld {
+    height : 10%;
+    width : 100%;
+}
+
+#ourimg {
+    width : 100%;
+    height : 100%;
+}
+
+#exploreworld {
+    border : 2px solid seashell;
+    height : 18%;
+    width : 10%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left : 750px;
+    bottom : 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+#exp {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+    color: seashell;
+}
+
+#hourworld {
+    color: seashell;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: xxx-large;
+    position: relative;
+    bottom : 300px;
+    left : 735px;
+
+
+}
+
+
+
+
+
+
+
