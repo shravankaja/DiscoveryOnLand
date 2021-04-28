@@ -1,0 +1,493 @@
+body {
+    margin: auto;
+    
+}
+
+#header-background-video {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+        
+}
+
+#logoheader {
+    display: inline;
+    margin-left: 150px;
+    position: relative;
+    width: 50px;
+}
+
+.c-site-head__logo {
+    bottom: 780px;
+    display: block;
+    pointer-events: all;
+    cursor: pointer;
+    z-index: 2;
+    width : 100%;
+    height : 10%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Layer_1 {
+    right:40px;
+    position: relative;
+    width: 47%;
+    bottom: -10px;
+}
+.list-items {
+    float: left;
+    list-style: none;
+    margin-right:  86px;
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+}
+
+#logofooter {
+    position: relative;
+    width: 32%;
+    top: 22px;
+}
+
+#press {
+    margin-right: 0px;
+}
+#togglebutton{
+   z-index : 10;
+}
+
+.c-burger {
+    --size: 1.25rem;
+    --height: 14px;
+    position: relative;
+    width: var(--size);
+    height: var(--height);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 2;
+}
+
+.c-burger__line {
+    height: 2px;
+    background-color: #fff;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+}
+
+.c-burger__line:nth-child(2) {
+    margin: 4px 0;
+}
+
+.c-burger__line:nth-child(3) {
+    width: 60%;
+    margin-left: auto;
+}
+
+.c-burger-close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%) rotate(45deg);
+    transform: translate(-50%,-50%) rotate(45deg);
+    height: 2px;
+    width: 100%;
+}
+
+button, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+button {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: #161f1e;
+    width: 100vw;
+    height: 600px;
+    z-index: 2;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#footerlogo {
+    display: flex;
+   
+}
+
+#footercontainer  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom : -183px;
+}
+#logoactual {
+    position: relative;
+    width: 50%;
+    left: 310px;
+}
+
+#item2 {
+    width : 16.6%;
+    
+}
+
+.pl {
+    align-self: center;
+}
+
+#item3 {
+
+    width : 16.6%;
+    
+}
+
+#item4 {
+    width : 16.6%;
+   
+}
+
+
+
+.lo {
+    position: relative;
+    left: 100px;
+    
+}
+#headerimg {
+    height : 100vh;
+    width: 100vw;
+}
+
+.secondfooteritems, .thirdfooteritems, .fourthfooteritems {
+    font-family: 'Roboto', sans-serif;
+    color : #fff;
+    margin-bottom: 20px;
+
+}
+
+#latestnews {
+    width : 100vw;
+    height : 170vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#headinglatestnews {
+    position: relative;
+    top : 100px;
+}
+
+#carousel {
+    height : 80%;
+    width : 100%;
+    position: relative;
+    top : 130px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+#imgcontainer {
+    width : 60%;
+    height: 81%;
+    position: relative;
+    left : 70px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+   
+}
+ 
+#imgcarousel {
+    display: flex;
+    flex-direction: row;
+    height :100%;
+    width: 100%;
+    transition: 2000ms ease-out;
+}
+
+
+
+.itemimg {
+    width : 1250px;
+    height : 1150px;
+}
+
+#hnews {
+    font-size: xxx-large;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    left : 200px;
+    position: relative;
+    font-weight: 200;
+}
+
+#imgcard {
+    height: 60%;
+    width: 30%;
+    background-color: ivory;
+    z-index: 100;
+    position: relative;
+    top : 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#news {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color:grey;
+    position: relative;
+    bottom : 140px;
+    left : 30px;
+}
+
+#mainheading {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+     bottom : 100px;
+     width : 70%;
+     left: 30px;
+}
+
+#desc {
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:grey;
+    width : 80%;
+    position: relative;
+    bottom : 50px;
+    left : 30px;
+}
+
+#readarticle {
+    border : 1px solid gray;
+    padding : 30px;
+    width : 23%;
+    height: 3%;
+    position: relative;
+    left: 30px;
+}
+
+#articlebutton {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+
+#carouselbuttons {
+    
+    width : 24%;
+    height : 2%;
+    position: relative;
+    left : 690px;
+    display: flex;
+    flex-direction: row;
+    bottom : 80px;
+}
+
+#leftarrow {
+    fill : black;
+    position: relative;
+    left: 30px;
+ 
+}
+#rightarrow {
+    
+    transform: rotateZ(180deg);
+    position: relative;
+    left : 80px;
+}
+
+#leftarrow,#rightarrow {
+    width: 30px;
+    height: 30px;
+   
+}
+
+#counter {
+    
+    height : 25px;
+    width : 25px;
+    position: relative;
+    left : 35px;
+    top : 2px;
+    display: flex;
+    flex-direction: column;
+}
+#c {
+    position: relative;
+    left : 10px;
+    bottom : 14px;
+    color: grey;
+    font-size: large;
+}
+
+#counterfixed {
+    position: relative;
+    left : 70px;
+    top : 5px;
+    color: grey;
+    font-size: large;
+}
+
+#dash {
+    height : 1px;
+    width : 6px;
+    border: 2px solid grey;
+    position: relative;
+    left : 50px;
+    top : 12px;
+    background-color: grey;
+}
+
+#presscon {
+    height : 150vh;
+    width  : 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#phead {
+
+    height : 10%;
+    width : 100%
+}
+
+.prow {
+    height : 40%;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.pele {
+    height : 100%;
+    width : 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.maintext {
+    width : 50%;
+    position: relative;
+    top : 50px;
+}
+.textmain {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+.date {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom : 80px;
+    right : 140px;
+    font-weight: 800;
+}
+
+.button {
+    position: relative;
+    bottom : 150px;
+    border: 2px solid grey;
+    width : 20%;
+    height: 10%;
+    padding: 10px;
+    right: 130px;
+}
+
+.rarticle {
+    position: relative;
+    left: 35px;
+    top : 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
+#carouselbuttons1 {
+    width : 24%;
+    height : 2%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 880px;
+    top : 30px;
+}
+
+#leftarrow1 {
+    fill : black;
+    position: relative;
+    left: 30px;
+ 
+}
+#rightarrow1 {
+    
+    transform: rotateZ(180deg);
+    position: relative;
+    left : 80px;
+}
+
+#leftarrow1,#rightarrow1 {
+    width: 30px;
+    height: 30px;
+   
+}
+
+#counter1 {
+    
+    height : 25px;
+    width : 25px;
+    position: relative;
+    left : 35px;
+    top : 2px;
+    display: flex;
+    flex-direction: column;
+}
+#c1 {
+    position: relative;
+    left : 10px;
+    bottom : 14px;
+    color: grey;
+    font-size: large;
+}
+
+#counterfixed1 {
+    position: relative;
+    left: 55px;
+    top : 5px; 
+    color: grey;
+    font-size: large; 
+}
+
+#headp {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    position: relative;
+    left : 250px;
+    top : 70px;
+    font-weight: 150;
+}
+
